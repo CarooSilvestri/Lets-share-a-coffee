@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+a, a:hover, .nav-link {
+
+    color: #260D0A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+/* ---------- NAV BAR ---------- */
+
+#sep-inicio {
+
+    width: 100%;
+    height: 2px;
+    color: #260D0A;
+    opacity: 1;
+    margin-top: 2%;
+}
+
