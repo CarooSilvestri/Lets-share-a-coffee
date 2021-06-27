@@ -59,98 +59,146 @@
     <!-- CONTENIDO PRINCIPAL -->
     <div class="container">
 
+        <div class="row row-cont" id="tit-blog">
+            <hr>
+            <h1>Blafé</h1>
+            <p>Las últimas novedades del mundo del café las compartimos tan rápido como sea posible, 
+                para que no te pierdas de nada! 
+            </p>
+        </div>
+    
         <article class="row">
             
-            <div class="col-12">
-                <img src="rsc/img/1584.jpg" width="100%">
-                
+            <div class="col-sm-12 col-md-12 col-lg-8">
+                <img src="rsc/img/1584.jpg" width="90%">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
                 <h2>
-                    titulo
+                    Acá va un titulo
                     <hr>
                 </h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, accusamus culpa voluptatum dolorum nam velit alias dolore repellendus odit facilis expedita praesentium asperiores consequuntur ducimus repellat sint iusto provident nisi!</p>
             </div>
         </article>
         
-        <article class="row">
-            <hr>
-            <div class="col-3">
-                <img src="rsc/img/mg_6643.jpg" width="100%">
-                <h3> algun titulo
-                    <hr>
-                </h3>
-                <p> alguna gilada</p>
-            </div>
-            <div class="col-3">
-                <img src="rsc/img/mg_6643.jpg" width="100%">
-                <h3> algun titulo
-                    <hr>
-                </h3>
-                <p> alguna gilada</p>
-            </div>
-            <div class="col-3">
-                <img src="rsc/img/mg_6643.jpg" width="100%">
-                <h3> algun titulo
-                    <hr>
-                </h3>
-                <p> alguna gilada</p>
-            </div>
-            <div class="col-3">
-                <img src="rsc/img/mg_6643.jpg" width="100%">
-                <h3> algun titulo
-                    <hr>
-                </h3>
-                <p> alguna gilada</p>
-            </div>
+   
+        <section class="row row-cont" id="entradas">
             
-        </article>
-                          
+            <hr>
+
+            <article class="col-sm-12 col-md-6 col-lg-3 px-3" >
+                <img src="rsc/img/mg_6643.jpg" width="100%">
+                <div class="articulo">
+                    <p id="fecha">27 de Junio 2021</p>
+                    <h3> 
+                        algun titulo
+                        <hr>
+                    </h3>
+                    <p> 
+                        alguna gilada
+                    </p>
+                </div>
+            </article>
+
+            <article class="col-sm-12 col-md-6 col-lg-3 px-3" >
+                <img src="rsc/img/mg_6643.jpg" width="100%">
+                <div class="articulo">
+                    <p id="fecha">27 de Junio 2021</p>
+                    <h3> 
+                        algun titulo
+                        <hr>
+                    </h3>
+                    <p> 
+                        alguna gilada
+                    </p>
+                </div>
+            </article>
+
+            <article class="col-sm-12 col-md-6 col-lg-3 px-3" >
+                <img src="rsc/img/mg_6643.jpg" width="100%">
+                <div class="articulo">
+                    <p id="fecha">27 de Junio 2021</p>
+                    <h3> 
+                        algun titulo
+                        <hr>
+                    </h3>
+                    <p> 
+                        alguna gilada
+                    </p>
+                </div>
+            </article>
+
+            <article class="col-sm-12 col-md-6 col-lg-3 px-3" >
+                <img src="rsc/img/mg_6643.jpg" width="100%">
+                <div class="articulo">
+                    <p id="fecha">27 de Junio 2021</p>
+                    <h3> 
+                        algun titulo
+                        <hr>
+                    </h3>
+                    <p> 
+                        alguna gilada
+                    </p>
+                </div>
+            </article>
+        </section>                  
     </div> 
 	
     <!-- FOOTER -->
-    <!-- 
-        - Contaiener fluid para que ocupe todo el ancho.
-        - Form robado de la página de bootstrap.
-    
-    -->
     <footer class="container-fluid">
 
         <div class="row container-footer">
 
-            <div class="col-4">
+            <div class="col-sm-6 col-md-5 col-lg-6" id="menu-footer">
 
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                      <a class="nav-link active" href="lugares.html">Cafés en BA</a>
+                      <a class="nav-link active" href="lugares.html">CAFÉS EN BA</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Historia del café</a>
+                      <a class="nav-link" href="historia.html">HISTORIA DEL CAFÉ</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Café 101</a>
+                      <a class="nav-link" href="cafe.html">CAFÉ 101</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="blog.html">BLOG</a>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-8">
-
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="col-sm-6 col-md-5 col-lg-6">
+                <div class="row">
+                    <form class="col-12">
+                    <div class="mb-3 form-suscribe">
+                        <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu mail aquí!">
+                    </div>
+                    <button type="submit" class="btn-submit">Suscribirse</button>
+                </form>
                 </div>
-                <button type="submit" class="btn btn-primary">Suscribirse</button>
-            </form>
-            
-            
-        </div><hr>
+                
+                <div class="row" id="redes">
+
+                    <h5>Seguinos también en nuestras redes!</h5>
+
+                    <!-- CAMBIAR COLOR LOGUITOS -->
+                    <div class="col-1 logo-red">
+                        <img src="rsc/icon/instagram-logo.png" width="40px" alt="instagram_logo">
+                    </div>
+                    <div class="col-1 logo-red">
+                        <img src="rsc/icon/twitter-black-shape.png" width="40px" alt="instagram_logo">
+                    </div>
+                </div>
+            </div>
+        
+            <hr>
             <p class="rights">
-                Palabras e imagenes bajo el derecho de Compartamos un café.<br>
+                Palabras e imágenes bajo el derecho de Compartamos un café.
+                <br>
                 Se agradece a todos los trabajadores de las cafeterias.
-            </p></div>
+            </p>
+        </div>
     </footer>
 </body>
 </html>

@@ -317,3 +317,29 @@ footer .row {
 }
 
 /* ---------- BLOG ---------- */
+
+#tit-blog {
+
+    width: 85%;
+}
+
+#tit-blog h1 {
+
+    text-align: left;
+}
+
+#tit-blog p {
+
+    font-size: 20pt;
+}
+
+#entradas {
+
+    margin-top: 5%;
+}
+
+.articulo {
+
+    padding: 3%;
+    padding-left: 0;
+}
