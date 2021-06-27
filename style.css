@@ -25,7 +25,9 @@ h1 {
 
 button {
 
-    padding: 3%;
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
     border: 2px solid #07402B;
     color: #07402B;
     background-color: #F2E2CE;
@@ -267,7 +269,7 @@ footer .row {
     background-color: #07402B;
 }
 
-#curso {
+.curso {
 
     width: 80%;
     margin: auto;
@@ -279,4 +281,39 @@ footer .row {
     margin: auto;
     margin-left: 5%;
 }
+
+.curso hr {
+
+    height: 2px;
+    width: 90%;
+}
+
+.tipos-filtrados {
+
+   text-align: center;
+}
+
+.tipos-filtrados h2 {
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.tipos-filtrados hr {
+
+    width: 100%;
+}
+
+.tipos-filtrados button {
+
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+#prep-bebidas {
+
+    margin-bottom: 8%;
+}
+
 /* ---------- BLOG ---------- */
