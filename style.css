@@ -253,7 +253,14 @@ footer .row {
     border-width: 2px;
 }
 
-/* ---------- DONDE TOMAR UN CAFE ---------- */
+/* ---------- LUGARES ---------- */
+
+.cafeterias {
+
+    padding: 2%;
+    border: 2px solid #07402B;
+    border-radius: 20px;
+}
 
 /* ---------- RESEÑAS ---------- */
 
@@ -279,7 +286,7 @@ footer .row {
 #info {
 
     margin: auto;
-    margin-left: 5%;
+    padding-left: 5%;
 }
 
 .curso hr {
