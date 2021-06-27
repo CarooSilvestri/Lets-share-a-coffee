@@ -4,6 +4,11 @@
     font-family: 'Playfair Display', serif;
 }
 
+body {
+    
+    background-color: #F2E2CE;
+}
+
 a, a:hover, .nav-link {
 
     color: #260D0A;
@@ -14,6 +19,34 @@ a, a:hover, .nav-link {
 h1 {
 
     text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+button {
+
+    padding: 3%;
+    border: 2px solid #07402B;
+    color: #07402B;
+    background-color: #F2E2CE;
+    font-weight: bold;
+}
+
+hr {
+
+    height: 2px;
+    opacity: 1;
+    width: 80%;
+}
+
+.row-cont {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.form-label {
+
+    font-size: 18px;
 }
 
 /* ---------- NAV BAR ---------- */
@@ -27,3 +60,151 @@ h1 {
     margin-top: 2%;
 }
 
+/* ---------- FOOTER ---------- */
+
+footer {
+
+    background-color: #260D0A;
+    color: white;
+}
+
+footer .row {
+
+    margin-bottom: 0;
+}
+
+.container-footer {
+
+    padding: 4%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+#menu-footer {
+
+    margin-bottom: 3%;
+    padding-left: 4%;
+}
+
+.container-footer .nav-link {
+
+    color: white;
+    font-size: 20pt;
+}
+
+.rights {
+
+    margin-top: 2%;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+} 
+
+
+/* ---------- HOME ---------- */
+
+/* ÚLTIMA ENTRADA BLOG */
+.fecha {
+
+    font-size: 12px;
+}
+
+/* CAFÉ 101 */
+
+#cont-cafe101 {
+
+    padding: 3%;
+}
+
+.carta {
+    
+    padding: 3%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.carta img {
+
+    margin: auto;
+}
+
+/* CARROUSEL */
+
+.carousel {
+
+    height: 50vh;
+}
+
+.carousel img {
+    
+    height: 50vh;
+}
+
+/* QUIENES SOMOS */
+
+#quienes-somos {
+
+    color:#F2EBDC;
+    background-color: #8C4C46;
+    padding: 5%;
+}
+
+#desq-qs {
+
+    width: 70%;
+    padding: 3%;
+    margin: auto;
+    text-align: center;
+}
+
+#perfiles {
+
+    width: 75%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#profile {
+
+    text-align: center;
+}
+
+#profile-pic {
+
+    margin-bottom: 5%;
+    padding: 1%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #F2E2CE;
+    border-width: 2px;
+}
+
+/* ---------- DONDE TOMAR UN CAFE ---------- */
+
+/* ---------- RESEÑAS ---------- */
+
+/* ---------- CAFÉ 101 ---------- */
+
+#tit-caf101 {
+
+    padding: 0;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 8%;
+    color: #F2EBDC;
+    background-color: #07402B;
+}
+
+#curso {
+
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#info {
+
+    margin: auto;
+    margin-left: 5%;
+}
+/* ---------- BLOG ---------- */

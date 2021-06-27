@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Compartamos un café</title>
+
+   
+    <!-- HAY QUE LINKEAR BOOTSTRAP DE MANERA LOCAL, AHORA ES SOLO DE MANERA ONLINE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV BAR -->
+    <header class="container-fluid">
+
+        <hr id="sep-inicio">
+
+        <nav class="d-flex flex-column">
+            
+            <a class="navbar-brand" href="index.html">
+                <h1>COMPARTAMOS UN CAFÉ</h1>
+            </a>
+
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="lugares.html">Cafés en BA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="historia.html">Historia del café</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cafe.html">Café 101</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+	</header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container">
+
+        <div class="row-fluid" id="tit-caf101">
+            <h1>CAFÉ 101</h1>
+        </div>
+
+        <div class="row" id="curso">
+
+            <div class="col-4">
+                <img src="rsc/img/señora.png" width="100%">
+            </div>
+
+            <div class="col-7" id="info">
+                <h2>
+                    Variedades de granos
+                    <hr>
+                </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, delectus quod, nulla magnam repellat ratione praesentium qui, vel quibusdam sint nihil nisi nemo debitis? Ipsam assumenda veritatis omnis rem quam!</p>
+                <button>Aprender</button>
+            </div>
+        </div>
+
+        <div class="row" id="curso">
+
+            <div class="col-3">
+                <img src="rsc/img/filtro.png" width="100%">
+            </div>
+
+            <div class="col-6">
+                <h2>
+                    <hr>
+                    Tipos de filtrado
+                    <hr>
+                </h2>
+                <button>Aprender</button>
+            </div>
+
+            <div class="col-3">
+                <img src="rsc/img/filtro.png" width="100%">
+            </div>
+        </div>
+
+        <div class="row" id="curso">
+
+            <h2>
+                Preparaciones del café
+                <hr>
+            </h2>
+            <div class="col-2">
+                <img src="rsc/img/filtro.png" width="100%">
+            </div>
+            <div class="col-2">
+                <img src="rsc/img/filtro.png" width="100%">
+            </div>
+            <div class="col-2">
+                <img src="rsc/img/filtro.png" width="100%">
+            </div>
+            <div class="col-2">
+                <img src="rsc/img/filtro.png" width="100%">
+            </div>
+            <div class="col-2">
+                <img src="rsc/img/filtro.png" width="100%">
+            </div>
+        </div>
+
+        
+    </div>
+	
+    <!-- FOOTER -->
+    <footer class="container-fluid">
+
+            <div class="row container-footer">
+
+            <div class="col-4">
+
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="lugares.html">Cafés en BA</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Historia del café</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Café 101</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-8">
+
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <button type="submit" class="btn btn-primary">Suscribirse</button>
+            </form>
+            
+            
+        </div><hr>
+            <p class="rights">
+                Palabras e imagenes bajo el derecho de Compartamos un café.<br>
+                Se agradece a todos los trabajadores de las cafeterias.
+            </p></div>
+    </footer>
+</body>
+</html>

@@ -35,22 +35,22 @@
 
         <nav class="d-flex flex-column">
             
-            <a class="navbar-brand" href="#">
-                <h1>Compartamos un café</h1>
+            <a class="navbar-brand" href="index.html">
+                <h1>COMPARTAMOS UN CAFÉ</h1>
             </a>
 
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Donde tomar un café</a>
+                  <a class="nav-link" href="lugares.html">CAFÉS EN BA</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Reseñas</a>
+                  <a class="nav-link" href="historia.html">HISTORIA DEL CAFÉ</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Café 101</a>
+                  <a class="nav-link" href="cafe.html">CAFÉ 101</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="blog.html">BLOG</a>
                 </li>
             </ul>
         </nav>
@@ -64,52 +64,132 @@
     <div class="container">
 
         <!-- ÚLTIMA ENTRADA DEL BLOG -->
-        <article class="row"> 
+        <article class="row row-cont" id="ult-entrada"> 
 
-            <div class="col-4">
-                <h1>Esto es un articulo</h1>
+            <div class="col-sm-12 col-md-4 col-xl-4 align-self">
+                <h2>
+                    El espresso al uso porteño
+                    <hr>
+                </h2>
+                <p>
+                    Una encuesta improvisada en mi nuevo programa de radio
+                    (Café del día, los domingos de 9 a 11 por Metro 95.1) 
+                    demuestra que el porteño se está inclinando...
+                </p>
+                <p class="fecha">
+                    25 DE JUNIO 2021
+                </p>
             </div>
 
-            <div class="col-8">
+            <div class="col-sm-12 col-md-8 col-xl-8">
                 <img src="rsc/img/1511.jpg" width="100%">
             </div>
         </article>
     
+        <!-- CAFE 101 -->
+        <section class="row row-cont" id="cont-cafe101">
+
+            <h1>CAFÉ 101</h1>
+
+            <div class="col-sm-6 col-md-6 col-lg-3 carta">
+                <img src="rsc/img/filtro.png" width="50%">
+                <h5>¿Cómo filtrar el café?</h5>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 carta">
+                <img src="rsc/img/taza de cafe.png" width="100%">
+                <h5>Aprende a preparar tu bebida favorita</h5>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 carta">
+                <img src="rsc/img/bolda 1.png" width="100%">
+                <h5>Variedades de granos</h5>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 carta">
+                <img src="rsc/img/señora.png" width="50%">
+                <h5>Historia del café</h5>
+            </div>
+           
+        </section>
+
         <!-- CARROUSEL ÚLTIMAS CAFETERÍAS VISITADAS / ÚLTIMAS RESEÑAS-->
-        <div class="row">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="rsc/img/1584.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="rsc/img/1615.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="rsc/img/1669.jpg" class="d-block w-100" alt="...">
-                  </div>
+        <!-- 
+            - Carrousel robado de bs jiji.
+        -->
+        <div class="row row-cont">
+            <h2>Últimas cafeterías visitadas</h2>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="rsc/img/2542290.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h1>OLD DAY'S</h1>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+
+                <div class="carousel-item">
+                    <img src="rsc/img/2792368.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h1>CAFÉ FLOR</h1>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="rsc/img/3063243.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h1>EL GATO NEGRO</h1>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PREVIO -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              
+            </button>
+            
+            <!-- SIGUIEN -->
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+        </div>
+        
     
         <!-- QUIÉNES SOMOS -->
-        <div class="row">
+        <div class="row row-cont align-self-center" id="quienes-somos">
+
             <h1>Quiénes somos?</h1>
-            <p></p>
-            <div class="col-12">
+            <p id="desq-qs">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum rhoncus semper. 
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                Curabitur et tortor vitae urna dignissim lacinia quis eu lectus. Cras sit amet odio diam.
+            </p>
+            
+            <div class="col-12" id="perfiles">
+                
                 <div class="row">
-                <div class="col-4">cami</div>
-                <div class="col-4">dana</div>
-                <div class="col-4">caro</div>
+                    <div class="col-sm-12 col-md-4 col-lg-4" id="profile">
+             
+                        <img src="rsc/img/cami.jpg" width="60%" id="profile-pic">
+                    
+                        <h2>Cami</h2>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4" id="profile">
+                        <div>
+                            <img src="rsc/img/dana.png" width="60%" id="profile-pic">
+                        </div>
+                        <h2>Dana</h2>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4" id="profile">
+                        <div>
+                            <img src="rsc/img/caro.jpg" width="60%" id="profile-pic">
+                        </div>
+                        <h2>Caro</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,18 +197,56 @@
     </div> 
 	
     <!-- FOOTER -->
-    <footer>
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <!-- 
+        - Contaiener fluid para que ocupe todo el ancho.
+        - Form robado de la página de bootstrap.
+    
+    -->
+    <footer class="container-fluid">
+
+        <div class="row container-footer">
+
+            <div class="col-sm-6 col-md-5 col-lg-6" id="menu-footer">
+
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="lugares.html">CAFÉS EN BA</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="historia.html">HISTORIA DEL CAFÉ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cafe.html">CAFÉ 101</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                </ul>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        suscibir
-        Palabras e imagenes bajo el derecho de Compartamos un café.
-        Se agradece a todos los trabajadores de las cafeterias.
+
+            <div class="col-sm-6 col-md-5 col-lg-6">
+
+                <form>
+                    <div class="mb-2">
+                        <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        
+            <hr>
+            <p class="rights">
+                Palabras e imágenes bajo el derecho de Compartamos un café.
+                <br>
+                Se agradece a todos los trabajadores de las cafeterias.
+            </p>
+        </div>
     </footer>
 </body>
 </html>
+
+<!-- 
+    - Mamá, mamá, los spaghetti se están pegando.
+    - Déjalos que se maten.
+ -->
