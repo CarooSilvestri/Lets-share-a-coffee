@@ -44,11 +44,6 @@ hr {
     margin-bottom: 5%;
 }
 
-.form-label {
-
-    font-size: 18px;
-}
-
 /* ---------- NAV BAR ---------- */
 
 #sep-inicio {
@@ -89,7 +84,35 @@ footer .row {
 .container-footer .nav-link {
 
     color: white;
-    font-size: 20pt;
+    font-size: 30pt;
+}
+
+.form-label {
+
+    font-size: 18px;
+}
+
+.form-suscribe {
+
+    width: 70%;
+}
+
+.btn-submit {
+
+    padding: 1%;
+    width: 30%;
+    font-weight: bolder;
+}
+
+#redes {
+
+    margin-top: 8%;
+}
+
+.logo-red {
+
+    margin-top: 4%;
+    margin-right: 5%;
 }
 
 .rights {
@@ -116,28 +139,77 @@ footer .row {
     padding: 3%;
 }
 
-.carta {
-    
-    padding: 3%;
-    margin: auto;
-    margin-top: 5%;
+#tit hr {
+
+    width: 30%;
 }
 
-.carta img {
+.carta {
+
+    margin-top: 7%;
+    color: #F2EBDC;
+}
+
+.carta2 {
+
+    margin-top: 3%;
+    color: #F2EBDC;
+}
+
+.c-filtrado {
+    
+    padding: 6% 10% 6% 10%;
+    background-color: #07402B;
+}
+
+.c-filtrado h2, .c-granos h2 {
+
+    margin-left: 8%;
+}
+
+.c-bebida {
+
+    padding: 5%;
+    background-color: #A65858;
+} 
+
+.c-bebida h2, .c-señora h2 {
+
+    text-align: center;
+}
+.c-bebida img, .c-señora img {
 
     margin: auto;
+}
+
+.c-granos {
+
+    padding: 6% 10% 6% 10%;
+    background-color: #260D0A;
+}
+
+.c-señora {
+
+    background-color: #8C4C46;
 }
 
 /* CARROUSEL */
 
 .carousel {
 
+    margin-top: 7%;
     height: 50vh;
 }
 
 .carousel img {
     
     height: 50vh;
+    filter: brightness(50%);
+}
+
+.carousel-caption {
+
+    margin-bottom: 5%;
 }
 
 /* QUIENES SOMOS */

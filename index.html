@@ -68,6 +68,9 @@
 
             <div class="col-sm-12 col-md-4 col-xl-4 align-self">
                 <h2>
+                    Últimas noticias ver que wea
+                </h2>
+                <h2>
                     El espresso al uso porteño
                     <hr>
                 </h2>
@@ -87,27 +90,43 @@
         </article>
     
         <!-- CAFE 101 -->
-        <section class="row row-cont" id="cont-cafe101">
+        <section class="row row-cont justify-content-evenly" id="cont-cafe101">
+            
+            <div class="d-flex flex-row justify-content-between" id="tit">
+                <hr class="align-self-center">
+                <h1>CAFÉ 101</h1>
+                <hr class="align-self-center">
+            </div>
 
-            <h1>CAFÉ 101</h1>
+            <div class="d-flex flex-wrap">
+                <div class="col-sm-12 col-md-6 col-lg-6 carta">
+                    <div class="d-flex flex-row c-filtrado">
+                        <img src="rsc/img/filtro.png" width="30%">
+                        <h2 class="align-self-center">¿Cómo filtrar el café?</h2>
+                    </div>
+                </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-3 carta">
-                <img src="rsc/img/filtro.png" width="50%">
-                <h5>¿Cómo filtrar el café?</h5>
+                <div class="col-sm-12 col-md-6 col-lg-6 carta justify-content-center">
+                    <div class="d-flex flex-column c-bebida">
+                        <img src="rsc/img/taza de cafe.png" width="80%">
+                        <h2 class="align-self-center">Aprende a preparar tu bebida favorita</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 carta2 justify-content-center">
+                    <div class="d-flex flex-column c-señora">
+                        <img src="rsc/img/señora.png" width="50%">
+                        <h2 class="align-self-center">Historia del café</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 mh-50 carta2">
+                    <div class="d-flex flex-row c-granos">
+                        <img src="rsc/img/bolda 1.png" width="50%">
+                        <h2 class="align-self-center">Variedades de granos</h2>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 carta">
-                <img src="rsc/img/taza de cafe.png" width="100%">
-                <h5>Aprende a preparar tu bebida favorita</h5>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 carta">
-                <img src="rsc/img/bolda 1.png" width="100%">
-                <h5>Variedades de granos</h5>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 carta">
-                <img src="rsc/img/señora.png" width="50%">
-                <h5>Historia del café</h5>
-            </div>
-           
         </section>
 
         <!-- CARROUSEL ÚLTIMAS CAFETERÍAS VISITADAS / ÚLTIMAS RESEÑAS-->
@@ -115,12 +134,18 @@
             - Carrousel robado de bs jiji.
         -->
         <div class="row row-cont">
-            <h2>Últimas cafeterías visitadas</h2>
+            
+            <div class="d-flex flex-row justify-content-between" id="tit">
+                <hr class="align-self-center">
+                <h1>Reseñas</h1>
+                <hr class="align-self-center">
+            </div>
+
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="rsc/img/2542290.jpg" class="d-block w-100" alt="...">
+                    <img src="rsc/img/2542290.jpg" class="d-block w-100" alt="oldays">
                     <div class="carousel-caption">
                       <h1>OLD DAY'S</h1>
                       <p>Some representative placeholder content for the first slide.</p>
@@ -128,7 +153,7 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="rsc/img/2792368.jpg" class="d-block w-100" alt="...">
+                    <img src="rsc/img/2792368.jpg" class="d-block w-100" alt="cafe-flor">
                     <div class="carousel-caption">
                       <h1>CAFÉ FLOR</h1>
                       <p>Some representative placeholder content for the second slide.</p>
@@ -136,7 +161,7 @@
                 </div>
                 
                 <div class="carousel-item">
-                    <img src="rsc/img/3063243.jpg" class="d-block w-100" alt="...">
+                    <img src="rsc/img/3063243.jpg" class="d-block w-100" alt="el-gato-negro">
                     <div class="carousel-caption">
                       <h1>EL GATO NEGRO</h1>
                       <p>Some representative placeholder content for the third slide.</p>
@@ -225,14 +250,28 @@
             </div>
 
             <div class="col-sm-6 col-md-5 col-lg-6">
-
-                <form>
-                    <div class="mb-2">
+                <div class="row">
+                    <form class="col-12">
+                    <div class="mb-3 form-suscribe">
                         <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu mail aquí!">
                     </div>
-                    <button type="submit">Suscribirse</button>
+                    <button type="submit" class="btn-submit">Suscribirse</button>
                 </form>
+                </div>
+                
+                <div class="row" id="redes">
+
+                    <h5>Seguinos también en nuestras redes!</h5>
+
+                    <!-- CAMBIAR COLOR LOGUITOS -->
+                    <div class="col-1 logo-red">
+                        <img src="rsc/icon/instagram-logo.png" width="40px" alt="instagram_logo">
+                    </div>
+                    <div class="col-1 logo-red">
+                        <img src="rsc/icon/twitter-black-shape.png" width="40px" alt="instagram_logo">
+                    </div>
+                </div>
             </div>
         
             <hr>
