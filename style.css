@@ -260,7 +260,11 @@ footer .row {
     padding: 2%;
     border: 2px solid #07402B;
     border-radius: 20px;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 45%;
 }
+
 
 /* ---------- RESEÑAS ---------- */
 

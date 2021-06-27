@@ -1,25 +1,34 @@
-const cafeterias = {
-
-
-     cafe1:   {
-            "nombre": "Old day's",
-            "direccion": "Olga Cossettini 1182, Buenos Aires"
-        }
-}
+const cafeterias = [
+    {
+      "nombre": "Old day's",
+      "dirección": "Olga Cossettini 1182, Puerto madero"
+    },
+    {
+      "nombre": "FOKO Recoleta",
+      "dirección": "Arenales 2630, Recoleta"
+    },
+    {
+      "nombre": "PANI",
+      "dirección": "Vicente López 2056"
+    },
+    {
+      "nombre": "El Gato Negro",
+      "dirección": "Av. Corrientes 1669,"
+    }
+  ]
 
 var cont = document.getElementById("cont-res")
 
-for (const elem in cafeterias) {
-
+for (let i = 0; i < cafeterias.length; i++) {
+    
     cont.innerHTML +=  `
         
-        <div class="col-sm-12 col-md-6 col-lg-4 cafeterias">
-        <div class="row">
+        <div class="d-flex cafeterias">
             <div class="col-sm-12 col-md-6 col-lg-9">
-                <h2>${elem.nombre}</h2>
+                <h2>${cafeterias[i].nombre}</h2>
                 <hr>
                 <p>
-                    ${elem.dirección}
+                    ${cafeterias[i].dirección}
                 </p>
             </div>
 
@@ -27,6 +36,5 @@ for (const elem in cafeterias) {
                 <img src="rsc/icon/Taza.png" width="100%">
             </div>
         </div>
-    </div>
     `
 }
