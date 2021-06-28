@@ -200,12 +200,12 @@ footer .row {
 .carousel {
 
     margin-top: 7%;
-    height: 50vh;
+    
 }
 
 .carousel img {
     
-    height: 50vh;
+    
     filter: brightness(50%);
 }
 
