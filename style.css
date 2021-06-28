@@ -148,13 +148,13 @@ footer .row {
 
 .carta {
 
-    /* margin-top: 7%; */
+    margin-top: 7%;
     color: #F2EBDC;
 }
 
 .carta2 {
 
-    /* margin-top: 3%; */
+    margin-top: 3%;
     color: #F2EBDC;
 }
 
@@ -302,6 +302,21 @@ footer .row {
     width: 90%;
 }
 
+.tipos-variedad {
+
+    text-align: center;
+ }
+ 
+ .tipos-variedad h2 {
+ 
+     margin-top: 3%;
+     margin-bottom: 3%;
+ }
+ 
+ .tipos-variedad hr {
+ 
+     width: 100%;
+ }
 .tipos-filtrados {
 
    text-align: center;
@@ -317,13 +332,28 @@ footer .row {
 
     width: 100%;
 }
+.tipos-bebidas {
 
-.tipos-filtrados button {
+    text-align: center;
+ }
+ 
+ .tipos-bebidas h2 {
+ 
+     margin-top: 3%;
+     margin-bottom: 3%;
+ }
+ 
+ .tipos-bebidas hr {
+ 
+     width: 100%;
+ }
+
+/* .tipos-filtrados button {
 
     width: 50%;
     margin: 0 auto;
     margin-top: 2%;
-}
+} */
 
 #prep-bebidas {
 
