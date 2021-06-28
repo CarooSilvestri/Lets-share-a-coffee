@@ -126,6 +126,15 @@ footer .row {
     font-size: 12px;
 } 
 
+a:hover {
+    color: brown;
+}
+
+ .nav-link:hover
+{
+    color: brown;
+
+}
 
 /* ---------- HOME ---------- */
 
@@ -205,19 +214,30 @@ footer .row {
 
 .carousel {
 
-    margin-top: 7%;
+   margin-top: 7%;
 }
 
 .carousel img {
+    /* height: 80vh; */
     filter: brightness(50%);
 }
 
 .carousel-caption {
-    /* text-align: center; */
-    margin-bottom: 5%;
+    
+    margin-bottom: 10%;
 }
 .carousel-caption a{
     color:#F2EBDC;
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-inner{
+
+    
+    height: 500px;
 }
 
 /* QUIENES SOMOS */
