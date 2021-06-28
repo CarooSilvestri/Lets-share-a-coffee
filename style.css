@@ -148,19 +148,19 @@ footer .row {
 
 .carta {
 
-    margin-top: 7%;
+    /* margin-top: 7%; */
     color: #F2EBDC;
 }
 
 .carta2 {
 
-    margin-top: 3%;
+    /* margin-top: 3%; */
     color: #F2EBDC;
 }
 
 .c-filtrado {
     
-    padding: 6% 10% 6% 10%;
+    /* padding: 6% 10% 6% 10%; */
     background-color: #07402B;
 }
 
@@ -171,7 +171,7 @@ footer .row {
 
 .c-bebida {
 
-    padding: 5%;
+    /* padding: 5%; */
     background-color: #A65858;
 } 
 
@@ -186,7 +186,7 @@ footer .row {
 
 .c-granos {
 
-    padding: 6% 10% 6% 10%;
+    /* padding: 6% 10% 6% 10%; */
     background-color: #260D0A;
 }
 
