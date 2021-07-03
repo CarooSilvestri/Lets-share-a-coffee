@@ -16,7 +16,7 @@ a, .nav-link {
     text-decoration: none;
 }
 
-a:hover, .nav-link:hover {
+a:hover, .nav-link:hover, .container-footer .nav-link:hover {
 
     color: brown;
 }
@@ -37,6 +37,13 @@ button {
     color: #07402B;
     background-color: #F2E2CE;
     font-weight: bold;
+}
+
+button:hover {
+
+    color: #F2E2CE;
+    background-color: #07402B;
+    transition: .5s ease;
 }
 
 hr {
@@ -133,6 +140,12 @@ footer .row {
     margin-top: 4%;
     margin-right: 5%;
     padding-bottom: 10px;
+    transition: transform .5s ease;
+}
+
+.logo-red:hover {
+
+    transform: scale(1.2);
 }
 
 .rights {
@@ -143,82 +156,73 @@ footer .row {
     font-size: 12px;
 } 
 
+@media (max-width: 770px) {
 
-/* ---------- HOME ---------- */
+    footer {
+        
+        text-align: center;   
+    }    
 
-/* ÚLTIMA ENTRADA BLOG */
+    .container-footer{
+
+        padding: 5%;
+    }
+
+    .form-suscribe{
+
+        margin: 5% auto;    
+    } 
+
+    .logo-red {
+        
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+}
+
+
+/* -------------------- HOME -------------------- */
+
+.titulo-101 hr, #titres hr {
+
+    width: 30%;
+}
+
+/* ----- ÚLTIMA ENTRADA BLOG ----- */
+
 .fecha {
 
-    font-size: 12px;
+    font-size: 10pt;
 }
 
-/* CAFÉ 101 */
-
-#cont-cafe101 {
-
-    padding: 3%;
-}
-
-#tit101 hr {
-
-    width: 30%;
-}
-
-#titres hr {
-
-    width: 30%;
-}
+/* ----- CAFÉ 101 ----- */
 
 .carta {
 
-    /* margin-top: 7%; */
+    margin-top: 3%;
     color: #F2EBDC;
 }
 
-.carta2 {
+.c-bebida, .c-filtrado, .c-granos, .c-signora {
 
-    /* margin-top: 3%; */
-    color: #F2EBDC;
+    padding: 6% 10% 6% 10%;
+    text-align: center;
 }
 
-.c-filtrado {
-    
-    /* padding: 6% 10% 6% 10%; */
-    background-color: #07402B;
-}
+.c-filtrado { background-color: #07402B; }
+.c-granos { background-color: #260D0A; }
+.c-signora { background-color: #8C4C46; }
+.c-bebida { background-color: #A65858; } 
 
 .c-filtrado h2, .c-granos h2 {
 
     margin-left: 8%;
 }
 
-.c-bebida {
 
-    /* padding: 5%; */
-    background-color: #A65858;
-} 
-
-.c-bebida h2, .c-señora h2 {
-
-    text-align: center;
-}
-.c-bebida img, .c-señora img {
-
-    margin: auto;
-}
-
-.c-granos {
-
-    /* padding: 6% 10% 6% 10%; */
-    background-color: #260D0A;
-}
-
-.c-señora {
-
-    background-color: #8C4C46;
-}
-
-/* CARROUSEL */
+/* ----- CARROUSEL ----- */
 
 .carousel {
 
@@ -248,7 +252,7 @@ footer .row {
     height: 500px;
 }
 
-/* QUIENES SOMOS */
+/* ----- QUIENES SOMOS ----- */
 
 #quienes-somos {
 
@@ -263,6 +267,7 @@ footer .row {
     padding: 3%;
     margin: auto;
     text-align: center;
+    font-size: clamp(10pt, 1vw, 16pt);
 }
 
 #perfiles {
@@ -272,12 +277,12 @@ footer .row {
     margin-top: 3%;
 }
 
-#profile {
+.profile {
 
     text-align: center;
 }
 
-#profile-pic {
+.profile-pic {
 
     margin-bottom: 5%;
     padding: 1%;
