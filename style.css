@@ -652,12 +652,41 @@ footer .row {
 
 #tit-blog h1 {
 
+    font-size: 6rem;
     text-align: left;
 }
 
 #tit-blog p {
 
     font-size: 20pt;
+}
+
+@media (max-width: 770px) {
+    
+    #tit-blog {
+
+        padding-left: 2%;
+    }
+
+    #tit-blog p {
+
+        font-size: 1em;
+    }
+
+    #tit-blog h1 {
+
+        font-size: 3rem;
+    }
+
+    #entrada-princ {
+
+        margin: 5% 0 5% 0;
+    }
+}
+
+#entrada-princ {
+
+    padding-left: 3%;
 }
 
 #entradas {
@@ -669,4 +698,6 @@ footer .row {
 
     padding: 3%;
     padding-left: 0;
+    margin-bottom: 5%;
 }
+

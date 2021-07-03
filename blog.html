@@ -54,22 +54,27 @@
         <div class="row row-cont" id="tit-blog">
             <hr>
             <h1>Blafé</h1>
-            <p>Las últimas novedades del mundo del café las compartimos tan rápido como sea posible, 
+            <p>
+                Las últimas novedades del mundo del café las compartimos tan rápido como sea posible, 
                 para que no te pierdas de nada! 
             </p>
         </div>
-        <!-- esto necesita ser responsive? si se supone es un titulo -->
+        
         <article class="row">
             
             <div class="col-12 col-md-6 col-lg-8">
-                <img src="rsc/img/3063017.jpg" class="img-fluid" alt="blafe">
+                <img src="rsc/img/3063017.jpg" class="img-fluid" alt="imagen entrada principal">
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="col-12 col-md-6 col-lg-4" id="entrada-princ">
                 <h2>
                     El momento café como aliado
                     <hr>
                 </h2>
-                <p>El café es la segunda bebida más consumida en el mundo. Se estima que el 80% de la población adulta lo consume. Además de que el café se consume desde hace siglos por su característico sabor y aroma.</p>
+                <p>El café es la segunda bebida más consumida en el mundo. Se estima que el 80% de la 
+                    población adulta lo consume. Además de que el café se consume desde hace siglos 
+                    por su característico sabor y aroma.
+                </p>
             </div>
         </article>
         
@@ -77,11 +82,15 @@
         <section class="row row-cont " id="entradas">
             
             <hr>
-
             <article class="col-12 col-md-6 col-lg-3 px-3" >
+
                 <img src="rsc/img/Photo_Oct_03_12_58_04_AM__75398.1615824341.jpg" class="img-fluid" alt="entrada1">
+
                 <div class="articulo">
-                    <p id="fecha">27 de Junio 2021</p>
+
+                    <p class="fecha">
+                        27 de Junio 2021
+                    </p>
                     <h3> 
                         Relaxx Mug: La taza de café involcable
                         <hr>
@@ -94,9 +103,12 @@
             </article>
 
             <article class="col-12 col-md-6 col-lg-3 px-3" >
+
                 <img src="rsc/img/cafetera-xiaomi3-1.jpg" class="img-fluid" alt="entrada2">
                 <div class="articulo">
-                    <p id="fecha">16 de Junio 2021</p>
+                    <p class="fecha">
+                        16 de Junio 2021
+                    </p>
                     <h3> 
                         Nueva cafetera de cápsulas Xiaomi Scishare
                         <hr>
@@ -111,7 +123,7 @@
             <article class="col-12 col-md-6 col-lg-3 px-3 " >
                 <img src="rsc/img/Barista_Main_1015x575.jpg" class="img-fluid" alt="entrada3">
                 <div class="articulo">
-                    <p id="fecha">08 de Abril 2021</p>
+                    <p class="fecha">08 de Abril 2021</p>
                     <h3> 
                         Sugerencias Baristas frente al COVID-19
                         <hr>
@@ -126,7 +138,7 @@
             <article class="col-12 col-md-6 col-lg-3 px-3 " >
                 <img src="rsc/img/cafe-verde.jpg" class="img-fluid" alt="entrada4">
                 <div class="articulo">
-                    <p id="fecha">17 de Mayo 2021</p>
+                    <p class="fecha">17 de Mayo 2021</p>
                     <h3> 
                         Cafe Verde: propiedades y para qué sirve
                         <hr>
@@ -140,8 +152,8 @@
         </section>                  
     </div> 
 	
-     <!-- FOOTER -->
-     <footer class="container-fluid">
+    <!-- FOOTER -->
+    <footer class="container-fluid">
 
         <div class="row container-footer">
 
@@ -149,13 +161,13 @@
 
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                      <a class="nav-link active" href="lugares.html">CAFÉS EN BA</a>
+                        <a class="nav-link" href="lugares.html">CAFÉS EN BA</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="historia.html">HISTORIA DEL CAFÉ</a>
+                        <a class="nav-link" href="historia.html">HISTORIA DEL CAFÉ</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="cafe.html">CAFÉ 101</a>
+                        <a class="nav-link" href="cafe.html">CAFÉ 101</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">BLOG</a>
@@ -166,23 +178,22 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="row">
                     <form class="col-12">
-                    <div class="mb-3 form-suscribe">
-                        <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu mail aquí!">
-                    </div>
-                    <button type="submit" class="btn-submit">Suscribirse</button>
-                </form>
+                        <div class="mb-3 form-suscribe">
+                            <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu mail aquí!">
+                        </div>
+                        <button type="submit" class="btn-submit">Suscribirse</button>
+                    </form>
                 </div>
                 
                 <div class="row" id="redes">
 
                     <h5>Seguinos también en nuestras redes!</h5>
 
-                    <!-- CAMBIAR COLOR LOGUITOS -->
-                    <div class="col-1 logo-red">
+                    <div class="col-6 col-md-2 col-lg-1 logo-red">
                       <a href="https://www.instagram.com/otccafe101/?hl=es" target="_blank"><img src="rsc/icon/instagram-logo.png" width="40px" alt="instagram_logo"></a>  
                     </div>
-                    <div class="col-1 logo-red">
+                    <div class="col-6 col-md-2 col-lg-1 logo-red">
                        <a href="https://twitter.com/cafe101mx"  target="_blank"><img src="rsc/icon/twitter-black-shape.png" width="40px" alt="twitter_logo"></a>
                     </div>
                 </div>
@@ -190,11 +201,10 @@
         
             <hr>
             <p class="rights">
-                Palabras e imágenes bajo el derecho de Compartamos un café.
-                <br>
-                Se agradece a todos los trabajadores de las cafeterias.
+                Palabras e imágenes bajo el derecho de Compartamos un café. Se agradece a todos los trabajadores de las cafeterias.
             </p>
         </div>
     </footer>
+
 </body>
 </html>
