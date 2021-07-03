@@ -58,6 +58,18 @@ hr {
     margin-bottom: 5%;
 }
 
+#tit-section {
+
+    padding: 0;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 8%;
+    color: #F2EBDC;
+    background-color: #07402B;
+}
+
+
+
 
 
 /* ---------- NAV BAR ---------- */
@@ -80,6 +92,8 @@ hr {
 
     font-size: clamp(10pt, 2vw, 16pt);
 }
+
+
 
 /* ---------- FOOTER ---------- */
 
@@ -181,6 +195,9 @@ footer .row {
         padding: 0;
     }
 }
+
+
+
 
 
 /* -------------------- HOME -------------------- */
@@ -291,6 +308,10 @@ footer .row {
     border-color: #F2E2CE;
     border-width: 2px;
 }
+
+
+
+
 
 /* ---------- LUGARES ---------- */
 
@@ -551,18 +572,37 @@ footer .row {
 
 
 
+/* -------------------- HISTORIA DEL CAFÉ -------------------- */
+
+.txt-histcafé {
+
+    padding-left: 5%;
+}
+
+.txt-histcafé h2 {
+
+    margin-bottom: 4%;
+    padding: 2%;
+    background-color: #8C4C46 ;
+    color: #F2E2CE;
+}
+
+.arreglo {
+
+    padding-right: 5%;
+    padding-left: 0;
+}
+
+
+@media (max-width: 770px) {
+
+    .txt-histcafé {
+        padding: 4%;
+    }
+}
+
 
 /* -------------------- CAFÉ 101 -------------------- */
-
-#tit-caf101 {
-
-    padding: 0;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    margin-top: 8%;
-    color: #F2EBDC;
-    background-color: #07402B;
-}
 
 .curso {
 
@@ -599,6 +639,9 @@ footer .row {
 
     margin-bottom: 10%;
 }
+
+
+
 
 /* ---------- BLOG ---------- */
 

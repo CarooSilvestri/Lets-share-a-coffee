@@ -16,9 +16,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
+
+    <script>AOS.init()</script>
 
     <!-- NAV BAR -->
     <header class="container-fluid">
@@ -50,65 +54,82 @@
 
     <!-- CONTENIDO PRINCIPAL -->
     <div class="container">
-        <h1>HISTORIA DEL CAFÉ</h1>
 
-        <div class="row row-cont">
+        <div class="row-fluid" id="tit-section">
+            <h1>HISTORIA DEL CAFÉ</h1>
+        </div>
+        
+
+        <div class="row row-cont" data-aos="fade-right">
 
             <div class="col-12 order-2 col-md-6 order-md-1 align-self-center">
-
                 <img src="rsc/img/3061577.jpg" alt="origen_cafe"  class="img-fluid">
             </div>
 
-            <div class="col-12 order-1 col-md-6 order-md-2 align-self-center">
+            <div class="col-12 order-1 col-md-6 order-md-2 align-self-center txt-histcafé">
+
                 <h2>¿Cuál es el Origen del Café?</h2>
-                <p>A lo largo del tiempo, el café ha sido visto de diferentes maneras; desde ser un remedio medicinal mágico hasta ser una bebida oscura producto del demonio y prohibida por eso mismo.
-                    Se sabe que se descubrió en el año 300, la historia más conocida en cuanto al origen del café, se trata de un viejo llamado Kaldi que vivía en Ethiopia (África).
-                    Kaldi era un cuidador de cabras que se la pasaba componiendo canciones todo el día con su flauta.
-                    Todos los días, antes de que cayera el sol, Kaldi tocaba su flauta de una manera especial para llamar a sus cabras.
-                    Un día para su sorpresa, ninguna cabra hizo caso a su llamado y por más que tocó y tocó su flauta, las cabras no llegaban a donde él estaba.
-                    Por lo cual, fue a buscarlas, mientras caminaba seguía tocando su flauta, cansado de caminar y tocar, por fin las encontró.
+                <p>
+                     La historia más conocida en cuanto al origen del café, se trata de un viejo llamado 
+                    Kaldi que vivía en Ethiopia (África). Kaldi era un cuidador de cabras que se la pasaba 
+                    componiendo canciones todo el día con su flauta. Todos los días, antes de que cayera el 
+                    sol, Kaldi tocaba su flauta de una manera especial para llamar a sus cabras. Un día para 
+                    su sorpresa, ninguna cabra hizo caso a su llamado y por más que tocó y tocó su flauta, 
+                    las cabras no llegaban a donde él estaba. Por lo cual, fue a buscarlas, mientras caminaba 
+                    seguía tocando su flauta, cansado de caminar y tocar, por fin las encontró.
                     No podría creer lo que veía, sus cabras estaban corriendo, balando, brincando y todas estaban muy emocionadas.
                     Después de observarlas, se dio cuenta que masticaban las hojas y los frutos de una planta que jamás había visto.
-                    Kaldi decidió también probar los frutos y poco después empezó a sentir más energía, felicidad, empezó a bailar y cantar junto a sus cabras.
+                    Kaldi decidió también probar los frutos y poco después empezó a sentir más energía, felicidad, 
+                    empezó a bailar y cantar junto a sus cabras.
                 </p>
             </div>
         </div>
-        <div class="row row-cont">
-            <div class="col-12  col-md-6 align-self-center">
+
+        <div class="row row-cont" data-aos="fade-up">
+
+            <div class="col-12  col-md-6 align-self-center txt-histcafé arreglo">
+               
                 <h2>¿Cómo Llegó El Café a Europa?</h2>
-                <p>Con el tiempo, la palabra habría pasado al turco Kahveh, que se refería al fruto de la planta del café.
-                    Después de eso habría evolucionado al italiano (“caffè“).
-                    En el siglo XV, gracias a los registros que se tienen de la comercialización del café entre Etiopía y los monasterios Sufistas de Yemen.
-                    Se sabe que el café paso como una bebida sagrada de monasterio a monasterio, lo que favoreció su expansión poco a poco.
-                    En el Siglo XVII por fin llega a Europa. La historia del café comienza en 1575, por Leonhard Rauwolf, un botánico Alemán.
-                    Pocos años más tarde, al inicio del siglo XVII, se encuentran los primeros registros de comercio de café entre la república de Venecia y el norte de África.
+                <p>
+                    Con el tiempo, la palabra habría pasado al turco Kahveh, que se refería al fruto de la planta del café.
+                    Después de eso habría evolucionado al italiano (“caffè“). En el siglo XV, gracias a los registros que se 
+                    tienen de la comercialización del café entre Etiopía y los monasterios Sufistas de Yemen. Se sabe que el 
+                    café paso como una bebida sagrada de monasterio a monasterio, lo que favoreció su expansión poco a poco.
+                    En el Siglo XVII por fin llega a Europa. La historia del café comienza en 1575, por Leonhard Rauwolf, un 
+                    botánico Alemán. Pocos años más tarde, al inicio del siglo XVII, se encuentran los primeros registros de 
+                    comercio de café entre la república de Venecia y el norte de África.
                 </p>
             </div>
-            <div class="col-12  col-md-6 align-self-center">
 
+            <div class="col-12  col-md-6 align-self-center">
                 <img src="rsc/img/3062986.jpg" alt="european_cafe"  class="img-fluid">
             </div>
         </div>
-        <div class="row row-cont">
+
+        <div class="row row-cont" data-aos="fade-up">
 
             <div class="col-12 order-2 col-md-6 order-md-1 align-self-center">
-
                 <img src="rsc/img/16565.jpg" alt="prohib_cafe"  class="img-fluid">
             </div>
 
-            <div class="col-12 order-1 col-md-6 order-md-2 align-self-center ">
+            <div class="col-12 order-1 col-md-6 order-md-2 align-self-center txt-histcafé">
                 <h2>La Prohibición del Café</h2>
-                <p>El café en un momento de la historia llegó a ser conocido como «la taza del diablo».
-                    En el mismo siglo XVII alcanza al continente asiático por vía de la India, existían regiones de este país que comercializaban con Yemen, y fue así que se introdujo allá. Y así poco después llegó a Japón y China.
-                    La historia del café sería muy distinta a la que se conoce si no fuera porque muchos religiosos y gobernadores fallaron en su intento de prohibirlo.
-                    En el momento que llegó a Europa y a distintos lugares del mundo, no a todos les maravilló y no todos lo aceptaron con los brazos abiertos.
-                    Para algunos sólo les trajo miedo y sospecha, por lo cual, el consumo de café fue prohibido por juristas en La Meca en 1511.
-                    
+                <p>
+                    El café en un momento de la historia llegó a ser conocido como «la taza del diablo».
+                    En el mismo siglo XVII alcanza al continente asiático por vía de la India, existían regiones
+                    de este país que comercializaban con Yemen, y fue así que se introdujo allá. Y así poco después 
+                    llegó a Japón y China. La historia del café sería muy distinta a la que se conoce si no fuera 
+                    porque muchos religiosos y gobernadores fallaron en su intento de prohibirlo. En el momento que 
+                    llegó a Europa y a distintos lugares del mundo, no a todos les maravilló y no todos lo aceptaron 
+                    con los brazos abiertos. Para algunos sólo les trajo miedo y sospecha, por lo cual, el consumo 
+                    de café fue prohibido por juristas en La Meca en 1511.
                 </p>
             </div>
         </div>
-        <div class="row row-cont">
-            <div class="col-12  col-md-6 align-self-center ">
+
+        <div class="row row-cont" data-aos="fade-up">
+
+            <div class="col-12  col-md-6 align-self-center txt-histcafé arreglo">
                 <h2>¿Cuál fue la Primera Cafetería del Mundo?</h2>
                 <p>La primera cafetería se halla en Constantinopla, con el paso del tiempo se fueron creando más, pero eran exclusivas y solo admitían a diplomáticos e intelectuales.
                     En 1645, se abrió la primera cafetería europea en Venecia, que era más accesible al público.
@@ -118,8 +139,8 @@
                     ¡Para 1675, sólo en Inglaterra había más de 3.000 cafeterías!
                 </p>
             </div>
-            <div class="col-12 col-md-6 align-self-center">
 
+            <div class="col-12 col-md-6 align-self-center">
                 <img src="rsc/img/Cafe-fornos-1908.jpg" alt="primer_caf" class="img-fluid">
             </div>
         </div>
@@ -134,13 +155,13 @@
 
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                      <a class="nav-link active" href="lugares.html">CAFÉS EN BA</a>
+                        <a class="nav-link" href="lugares.html">CAFÉS EN BA</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="historia.html">HISTORIA DEL CAFÉ</a>
+                        <a class="nav-link" href="historia.html">HISTORIA DEL CAFÉ</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="cafe.html">CAFÉ 101</a>
+                        <a class="nav-link" href="cafe.html">CAFÉ 101</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">BLOG</a>
@@ -151,33 +172,30 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="row">
                     <form class="col-12">
-                    <div class="mb-3 form-suscribe">
-                        <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu mail aquí!">
-                    </div>
-                    <button type="submit" class="btn-submit">Suscribirse</button>
-                </form>
+                        <div class="mb-3 form-suscribe">
+                            <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu mail aquí!">
+                        </div>
+                        <button type="submit" class="btn-submit">Suscribirse</button>
+                    </form>
                 </div>
                 
                 <div class="row" id="redes">
 
                     <h5>Seguinos también en nuestras redes!</h5>
 
-                    <!-- CAMBIAR COLOR LOGUITOS -->
-                    <div class="col-1 logo-red">
-                      <a href="https://www.instagram.com/otccafe101/?hl=es" target="_blank"><img src="rsc/icon/instagram-logo.png" width="40px" alt="instagram_logo"></a>  
+                    <div class="col-6 col-md-2 col-lg-1 logo-red">
+                    <a href="https://www.instagram.com/otccafe101/?hl=es" target="_blank"><img src="rsc/icon/instagram-logo.png" width="40px" alt="instagram_logo"></a>  
                     </div>
-                    <div class="col-1 logo-red">
-                       <a href="https://twitter.com/cafe101mx"  target="_blank"><img src="rsc/icon/twitter-black-shape.png" width="40px" alt="twitter_logo"></a>
+                    <div class="col-6 col-md-2 col-lg-1 logo-red">
+                    <a href="https://twitter.com/cafe101mx"  target="_blank"><img src="rsc/icon/twitter-black-shape.png" width="40px" alt="twitter_logo"></a>
                     </div>
                 </div>
             </div>
         
             <hr>
             <p class="rights">
-                Palabras e imágenes bajo el derecho de Compartamos un café.
-                <br>
-                Se agradece a todos los trabajadores de las cafeterias.
+                Palabras e imágenes bajo el derecho de Compartamos un café. Se agradece a todos los trabajadores de las cafeterias.
             </p>
         </div>
     </footer>
