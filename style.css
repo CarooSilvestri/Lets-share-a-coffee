@@ -24,7 +24,7 @@ a:hover, .nav-link:hover, .container-footer .nav-link:hover {
 h1 {
 
     text-align: center;
-    font-size: clamp(2rem, 5vw, 6rem);
+    font-size: clamp(1.5rem, 5vw, 6rem);
     font-weight: bold;
 }
 
@@ -551,9 +551,8 @@ footer .row {
 
 
 
-/* ---------- RESEÑAS ---------- */
 
-/* ---------- CAFÉ 101 ---------- */
+/* -------------------- CAFÉ 101 -------------------- */
 
 #tit-caf101 {
 
@@ -572,79 +571,33 @@ footer .row {
     margin-top: 10%;
 }
 
-#info {
-
-    margin: auto;
-    padding-left: 5%;
-}
-
 .curso hr {
 
-    height: 2px;
-    width: 90%;
+    height: 2px;  
+    width: 100%;
+}
+
+.tipos-variedad, .tipos-filtrados, .tipos-bebidas, .filtros-cafe {
+
+    text-align: center;
 }
 
 .tipos-variedad {
 
-    text-align: center;
- }
- 
- .tipos-variedad h2 {
- 
-     margin-top: 3%;
-     margin-bottom: 3%;
- }
- 
- .tipos-variedad hr {
- 
-     width: 100%;
- }
-.tipos-filtrados {
-
-   text-align: center;
+    padding-left: 5%;
 }
 
-.tipos-filtrados h2 {
-
-    margin-top: 3%;
-    margin-bottom: 3%;
+@media (max-width: 770px) {
+    
+    .tipos-variedad, .tipos-filtrados, .tipos-bebidas, .filtros-cafe {
+        margin-top: 3%;
+        margin-bottom: 10%;
+    }
 }
-
-.tipos-filtrados hr {
-
-    width: 100%;
-}
-.tipos-bebidas {
-
-    text-align: center;
- }
- 
- .tipos-bebidas h2 {
- 
-     margin-top: 3%;
-     margin-bottom: 3%;
- }
- 
- .tipos-bebidas hr {
- 
-     width: 100%;
- }
-
- .filtros_cafe
- {
-     text-align: center;
- }
- 
-/* .tipos-filtrados button {
-
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 2%;
-} */
 
 #prep-bebidas {
 
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
 /* ---------- BLOG ---------- */
