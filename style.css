@@ -28,7 +28,6 @@ h1 {
     font-weight: bold;
 }
 
-
 button {
 
     padding: 2%;
@@ -65,9 +64,14 @@ hr {
     margin-top: 2%;
 }
 
+.navbar-brand {
+
+    padding-bottom: 1rem;
+}
+
 .nav-link {
 
-    font-size: 1.3em;
+    font-size: clamp(10pt, 2vw, 16pt);
 }
 
 /* ---------- FOOTER ---------- */
