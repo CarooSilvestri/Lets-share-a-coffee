@@ -138,7 +138,9 @@ $('#form_lugares').change(function() {
 });
 
 function filterList(value, cont) {
-
+  
+  cont.innerHTML = `` 
+  
   if (value == "All") {
 
     cargar_cafeterias()
@@ -146,7 +148,7 @@ function filterList(value, cont) {
   } else {
 
     document.getElementById("lugar_act").innerHTML  = `${value}`
-    cont.innerHTML = `` 
+    
     cafeterias[value].forEach(element => {
       
       crear_contenido(element, cont)  
