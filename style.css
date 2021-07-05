@@ -21,7 +21,7 @@ a:hover, .nav-link:hover, .container-footer .nav-link:hover {
     color: brown;
 }
 
-h1 {
+h1, h2 {
 
     text-align: center;
     font-size: clamp(1.5rem, 5vw, 6rem);
@@ -233,7 +233,7 @@ footer .row {
 .c-signora { background-color: #8C4C46; }
 .c-bebida { background-color: #A65858; } 
 
-.c-filtrado h2, .c-granos h2 {
+.c-filtrado h3, .c-granos h3 {
 
     margin-left: 8%;
 }
@@ -246,28 +246,62 @@ footer .row {
    margin-top: 7%;
 }
 
-.carousel img {
-    /* height: 80vh; */
-    filter: brightness(50%);
+.carousel button:hover {
+
+    background-color: transparent;
+}
+
+.carousel-inner {
+   align-items: center;
 }
 
 .carousel-caption {
-    
-    margin-bottom: 10%;
+
+    top: 30%;
 }
+
+@media (max-width: 700px) {
+    
+    .carousel-caption {
+
+        top: 35%;
+    }
+}
+
 .carousel-caption a{
+
     color:#F2EBDC;
 }
-.carousel-inner img {
-    width: 100%;
-    max-height: 460px;
+
+.img-carousel {
+
+    content: "";
+    background-size: cover;
+    background-color: #260d0abb;
+    background-blend-mode: soft-light;
+    height: 460px;
 }
 
-.carousel-inner{
+#caf1 { 
 
+    background-image: url(rsc/img/2542290.jpg);
+    background-position: 0 85%;
+}
+
+#caf2 { 
+
+    background-image: url(rsc/img/Oldays2.jpg);
+    background-position: 0 50%;
+}
+
+#caf3 { 
     
-    height: 500px;
+    background-image: url(rsc/img/3063243.png); 
+    background-position: 0 50%;
 }
+
+
+
 
 /* ----- QUIENES SOMOS ----- */
 
@@ -382,7 +416,7 @@ footer .row {
     padding-left: 5%;
 }
 
-.txt-histcafé h2 {
+.txt-histcafé h3 {
 
     margin-bottom: 4%;
     padding: 2%;
