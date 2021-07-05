@@ -338,6 +338,7 @@ footer .row {
     margin-top: 5%;
     margin-bottom: 3%;
     font-size: clamp(10pt, 2vw, 16pt);
+    border-radius: 0;
 }
 
 .info-cafe {
