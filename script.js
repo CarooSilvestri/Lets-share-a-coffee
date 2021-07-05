@@ -118,7 +118,7 @@ function llenar_form() {
 function cargar_cafeterias() {
 
   var cont_tarjetas = document.getElementById("cont-res")
-  cont_tarjetas.innerHTML = `<h1>Todas las cafeterías</h1>`
+  document.getElementById("lugar_act").innerHTML  = `Todas las cafeterías`  
   
   for (var value in cafeterias){ 
   
@@ -145,7 +145,7 @@ function filterList(value, cont) {
 
   } else {
 
-    cont.innerHTML = `<h1>${value}</h1>`
+    document.getElementById("lugar_act").innerHTML  = `${value}`
     cafeterias[value].forEach(element => {
       
       crear_contenido(element, cont)  
@@ -157,11 +157,24 @@ function crear_contenido(elem, cont_tarjetas) {
 
   cont_tarjetas.innerHTML +=  `
         
-    <div class="col-12 col-md-6 col-lg-3 cafeterias">  
-      <img src="rsc/icon/${elem.tipo_caf}.png" width="50%" alt="${elem.tipo_caf}" class="img-fluid"> 
+    <div class="d-flex cafeterias flex-column d-none d-md-block">  
+      <img src="rsc/icon/${elem.tipo_caf}.png" width="50%" alt="${elem.tipo_caf}" class="img-fluid align-self-center"> 
       <hr>
       <h3>${elem.nombre}</h3>
       <p>${elem.direccion}</p>
-    </div>       
+    </div>     
+
+    <div class="col-10 cafeterias-card d-sm-block d-md-none">  
+      <div class="row cont-card">
+        <div class="col-9">  
+          <h3>${elem.nombre}</h3>
+          <hr>     
+          <p>${elem.direccion}</p>
+        </div>
+        <div class="col-3 align-self-center">  
+          <img src="rsc/icon/${elem.tipo_caf}.png" alt="${elem.tipo_caf}" class="img-fluid">
+        </div>
+      </div>
+    </div>  
   `
 }

@@ -65,8 +65,31 @@
             <option value="All">Selecciona una ciudad</option>
         </select>
 
+        <!-- REFERENCIAS ICONOS -->
+        <div class="row referencias justify-content-evenly">
+            <div class="col-sm-4 col-md-5 col-lg-3">
+                <div class="d-flex">
+                    <img src="rsc/icon/venta de granos.png"  class="img-fluid" alt="referencia venta de granos">
+                    <h3 class="align-self-center">Venta de granos</h3>
+                </div>
+            </div>  
+            <div class="col-sm-4 col-md-5 col-lg-3">
+                <div class="d-flex">
+                    <img src="rsc/icon/para tomar en el local.png"  class="img-fluid" alt="referencia para tomar en el local">
+                    <h3 class="align-self-center">Para tomar en el local</h3>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-5 col-lg-3">
+                <div class="d-flex">
+                    <img src="rsc/icon/take away.png"  class="img-fluid" alt="referencia take away">
+                    <h3 class="align-self-center">Take away</h3>
+                </div>
+            </div>  
+        </div>
+        
         <!-- LUGARES-->
-        <div class="row justify-content-center" id="cont-res"></div>
+        <h1 id="lugar_act"></h1>
+        <div class="d-flex flex-wrap justify-content-center" id="cont-res"></div>
     </div>
 	
     <!-- FOOTER -->
@@ -78,13 +101,13 @@
 
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                      <a class="nav-link active" href="lugares.html">CAFÉS EN BA</a>
+                        <a class="nav-link" href="lugares.html">CAFÉS EN BA</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="historia.html">HISTORIA DEL CAFÉ</a>
+                        <a class="nav-link" href="historia.html">HISTORIA DEL CAFÉ</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="cafe.html">CAFÉ 101</a>
+                        <a class="nav-link" href="cafe.html">CAFÉ 101</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">BLOG</a>
@@ -95,23 +118,22 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="row">
                     <form class="col-12">
-                    <div class="mb-3 form-suscribe">
-                        <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu mail aquí!">
-                    </div>
-                    <button type="submit" class="btn-submit">Suscribirse</button>
-                </form>
+                        <div class="mb-3 form-suscribe">
+                            <label for="exampleInputEmail1" class="form-label">Enterate de las mejor café antes que nadie!</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu mail aquí!">
+                        </div>
+                        <button type="submit" class="btn-submit">Suscribirse</button>
+                    </form>
                 </div>
                 
                 <div class="row" id="redes">
 
                     <h5>Seguinos también en nuestras redes!</h5>
 
-                    <!-- CAMBIAR COLOR LOGUITOS -->
-                    <div class="col-1 logo-red">
+                    <div class="col-6 col-md-2 col-lg-1 logo-red">
                       <a href="https://www.instagram.com/otccafe101/?hl=es" target="_blank"><img src="rsc/icon/instagram-logo.png" width="40px" alt="instagram_logo"></a>  
                     </div>
-                    <div class="col-1 logo-red">
+                    <div class="col-6 col-md-2 col-lg-1 logo-red">
                        <a href="https://twitter.com/cafe101mx"  target="_blank"><img src="rsc/icon/twitter-black-shape.png" width="40px" alt="twitter_logo"></a>
                     </div>
                 </div>
@@ -119,13 +141,11 @@
         
             <hr>
             <p class="rights">
-                Palabras e imágenes bajo el derecho de Compartamos un café.
-                <br>
-                Se agradece a todos los trabajadores de las cafeterias.
+                Palabras e imágenes bajo el derecho de Compartamos un café. Se agradece a todos los trabajadores de las cafeterias.
             </p>
         </div>
     </footer>
-    
+
     <script src="script.js"></script>
 
 </body>

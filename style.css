@@ -315,6 +315,34 @@ footer .row {
 
 /* ---------- LUGARES ---------- */
 
+.referencias {
+
+    margin: 4% auto;
+}
+
+.referencias h3 {
+
+    font-size: clamp(10pt, 2vw, 16pt);
+}
+
+.referencias img {
+
+    width: clamp(50px, 1vw, 30%);
+}
+
+
+#form_lugares {
+
+    border: none;
+    background-color: #8C4C46;
+    color:#F2E2CE;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: clamp(10pt, 2vw, 16pt);
+    border-radius: 0;
+}
+
 .cafeterias {
 
     padding: 2%;
@@ -329,16 +357,18 @@ footer .row {
     margin: 2% auto;
 }
 
-#form_lugares {
+.cafeterias-card {
 
-    border: none;
-    background-color: #8C4C46;
-    color:#F2E2CE;
-    padding: 2%;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    font-size: clamp(10pt, 2vw, 16pt);
-    border-radius: 0;
+    padding: 3%;
+    border: 2px solid #07402B;
+    margin: 3% 0 3% 0;
+    border-radius: 20px;
+}
+
+.cont-card {
+
+    padding: 1% 3% 0 3%;
+    margin: 0;
 }
 
 .info-cafe {
