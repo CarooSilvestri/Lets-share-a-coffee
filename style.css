@@ -393,7 +393,7 @@ footer .row {
 
 .cafeterias-card {
 
-    padding: 3%;
+    padding: 2%;
     border: 2px solid #07402B;
     margin: 3% 0 3% 0;
     border-radius: 20px;
@@ -452,6 +452,12 @@ footer .row {
 
     height: 2px;  
     width: 100%;
+}
+
+.curso h3 {
+
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .tipos-variedad, .tipos-filtrados, .tipos-bebidas, .filtros-cafe {
@@ -524,6 +530,11 @@ footer .row {
 #entrada-princ {
 
     padding-left: 3%;
+}
+
+#entrada-princ h3 {
+
+    font-size: 2.5rem;
 }
 
 #entradas {

@@ -153,6 +153,7 @@ function filterList(value, cont) {
       
       crear_contenido(element, cont)  
     });
+    
   }
 }
 
@@ -169,12 +170,12 @@ function crear_contenido(elem, cont_tarjetas) {
 
     <div class="col-10 cafeterias-card d-sm-block d-md-none">  
       <div class="row cont-card">
-        <div class="col-9">  
+        <div class="col-8">  
           <h3>${elem.nombre}</h3>
           <hr>     
           <p>${elem.direccion}</p>
         </div>
-        <div class="col-3 align-self-center">  
+        <div class="col-4 align-self-center">  
           <img src="rsc/icon/${elem.tipo_caf}.png" alt="${elem.tipo_caf}" class="img-fluid">
         </div>
       </div>
