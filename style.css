@@ -364,7 +364,6 @@ footer .row {
     width: clamp(50px, 1vw, 30%);
 }
 
-
 #form_lugares {
 
     border: none;
@@ -384,6 +383,11 @@ footer .row {
     border-radius: 20px;
     margin: 3%;
     text-align: center;
+}
+
+#cont-res {
+
+    margin-bottom: 12%;
 }
 
 .cafeterias hr {
@@ -409,6 +413,10 @@ footer .row {
 
     width: 100%;
 }
+
+
+
+
 /* -------------------- HISTORIA DEL CAFÉ -------------------- */
 
 .txt-histcafé {
