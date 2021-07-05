@@ -100,8 +100,7 @@ const cafeterias = {
   ]
 }
 
-
-
+//--------------------------------------------------------------------
 
 llenar_form()
 cargar_cafeterias()
@@ -125,15 +124,8 @@ function cargar_cafeterias() {
   
     for (var i = 0; i < cafeterias[value].length; i++) {
 
-      cont_tarjetas.innerHTML +=  `
-        
-        <div class="col-12 col-md-6 col-lg-3 cafeterias">  
-            <img src="rsc/icon/${cafeterias[value][i].tipo_caf}.png" width="50%" alt="${cafeterias[value][i].tipo_caf}" class="img-fluid"> 
-            <hr>
-            <h3>${cafeterias[value][i].nombre}</h3>
-            <p>${cafeterias[value][i].direccion}</p>
-        </div>       
-      `
+      crear_contenido(cafeterias[value][i], cont_tarjetas)
+      
     }
   }
 }
@@ -145,28 +137,31 @@ $('#form_lugares').change(function() {
 	filterList(filter, cont_tarjetas);
 });
 
-
 function filterList(value, cont) {
 
   if (value == "All") {
 
     cargar_cafeterias()
-  }
-  else {
 
-  cont.innerHTML = `<h1>${value}</h1>`
-  cafeterias[value].forEach(element => {
-    
-    cont.innerHTML +=  `
+  } else {
+
+    cont.innerHTML = `<h1>${value}</h1>`
+    cafeterias[value].forEach(element => {
       
-      <div class="col-sm-12 col-md-6 col-lg-3 cafeterias">  
-          <img src="rsc/icon/granos.png" width="50%" alt="${element.tipo_caf}" class="img-fluid"> 
-          <hr>
-          <h3>${element.nombre}</h3>
-          <p>${element.direccion}</p>
-      </div>       
-    `
-  });
+      crear_contenido(element, cont)  
+    });
+  }
+}
 
-}}
-  
+function crear_contenido(elem, cont_tarjetas) {
+
+  cont_tarjetas.innerHTML +=  `
+        
+    <div class="col-12 col-md-6 col-lg-3 cafeterias">  
+      <img src="rsc/icon/${elem.tipo_caf}.png" width="50%" alt="${elem.tipo_caf}" class="img-fluid"> 
+      <hr>
+      <h3>${elem.nombre}</h3>
+      <p>${elem.direccion}</p>
+    </div>       
+  `
+}
